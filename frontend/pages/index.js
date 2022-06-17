@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <>
       <Header />
-      <div className="flex justify-center">
+      <div className="flex justify-center ">
         <UrlContainer>
           <UrlForm />
         </UrlContainer>

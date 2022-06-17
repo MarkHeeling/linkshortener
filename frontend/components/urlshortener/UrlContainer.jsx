@@ -1,7 +1,7 @@
 const UrlContainer = ({ children }) => {
   return (
-    <div className="url-container rounded-md p-5 shadow-md">
-      <h2 className="text-center mb-4">Verklein je url</h2>
+    <div className="w-auto p-5 m-20 bg-white rounded-md shadow-sm url-container">
+      <h2 className="mb-4 text-lg font-medium text-center">Verklein je url</h2>
       {children}
     </div>
   );
